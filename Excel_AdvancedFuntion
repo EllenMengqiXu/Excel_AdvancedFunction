@@ -1,4 +1,6 @@
 Top Advanced Excel Tips and Tricks
+===
+
 1. Advanced Transpose - when the source content changed the transpose copy will also change
 Select blank size as the original size, directly type “=transpose(A1:F6)” (A1:F6 is the content that want to transpose), then shift+ctrl+enter (instead of enter)
 2. Calendar picker (it is used when you need to put in date)
