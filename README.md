@@ -39,3 +39,5 @@ Go to data —> what if analysis —> goal seek —> set value: y cell; to value
 Vlookup is used when you want to do match. In this example, E3 is the name, B3:C12 stands for name and ID(does not include headers), col_index_num is 2, which meansthe second column in the range(B3:C12) is what we are looking for, False means we are looking for 100% value instead of True for nearly 100% value.
 Ctrl + ~ —>show formula
 18. Concatenate —> add together
+19. pivotTable --> count rows frequency 
+choose the data you want to work on and insert pivotTable, put the title in the rows field that you want to count and put the same title in the value field but setting to count.
