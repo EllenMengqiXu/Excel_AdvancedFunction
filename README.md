@@ -43,6 +43,6 @@ Ctrl + ~ —>show formula
 choose the data you want to work on and insert pivotTable, put the title in the rows field that you want to count and put the same title in the value field but setting to count.
 20. convert mixed-format (US & UK) to US format date
 * column A is the mixed date
-* column B: DATE(RIGHT(A2,4),MID(A2,4,2),LEFT(A2,2))
-* column C: IFERROR(IF(ISNUMBER(A2),VALUE(TEXT(A2,"mm/dd/yyyy")),DATE(RIGHT(A2,4),LEFT(A2,FIND("/",A2)-1),MID(A2,FIND("/",A2)+1,2))),DATE(RIGHT(A2,4),LEFT(A2,FIND("/",A2)-1),MID(A2,FIND("/",A2)+1,1)))
+* column B: DATE(RIGHT(A2,4),MID(A2,4,2),LEFT(A2,2)) ---> UK version Date
+* column C: ---> US version Date IFERROR(IF(ISNUMBER(A2),VALUE(TEXT(A2,"mm/dd/yyyy")),DATE(RIGHT(A2,4),LEFT(A2,FIND("/",A2)-1),MID(A2,FIND("/",A2)+1,2))),DATE(RIGHT(A2,4),LEFT(A2,FIND("/",A2)-1),MID(A2,FIND("/",A2)+1,1)))
 * column D: IF(C2=A2,A2,B2)
