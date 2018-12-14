@@ -51,3 +51,5 @@ choose the data you want to work on and insert pivotTable, put the title in the 
 * IFERROR(INDEX($B$2:$B$31133,SMALL(IF($C$3=$A$2:$A$31133,ROW($A$2:$A$31133)- MIN(ROW($A$2:$A$31133))+1,""),COLUMN()-2)), "N/A")
 22. combine cells and seperate with "^"
 * =TEXTJOIN("^",,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1)
+23. turn out value with multiple if
+* =IF(OR(B1="a",B1="b",B1="c"), "yes", "no")
