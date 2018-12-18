@@ -96,3 +96,10 @@ choose the data you want to work on and insert pivotTable, put the title in the 
 23. turn out value with **multiple if**
 
 =IF(OR(B1="a",B1="b",B1="c"), "yes", "no")
+
+24. **freeze** selected rows
+
+selected the rows which below the rows that you want to freese (for example, if you want to freeze row 1 and 2, select row 3)
+
+go to view in the ribbon and select freeze panes under freeze panes
+
