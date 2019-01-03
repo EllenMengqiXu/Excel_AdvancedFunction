@@ -103,3 +103,10 @@ selected the rows which below the rows that you want to freese (for example, if 
 
 go to view in the ribbon and select freeze panes under freeze panes
 
+25. calculate days number of current month in a date range
+
+=MAX(0,MIN(EOMONTH($N$1,0),F2)-MAX($N$1,E2)+1)
+
+* N1: the firs day of current month
+* F2: end date
+* E2: start date 
