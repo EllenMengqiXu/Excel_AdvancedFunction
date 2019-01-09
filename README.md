@@ -1,7 +1,7 @@
 Top Advanced Excel Tips and Tricks
 ===
 
-This file is about advanced excel funciton on Mac.
+This file is about advanced excel function on Mac.
 ---
 
 1. **Advanced Transpose** - when the source content changed the transpose copy will also change
