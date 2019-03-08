@@ -110,3 +110,10 @@ N2=MAX(0,MIN(EOMONTH($N$1,0),F2)-MAX($N$1,E2)+1)
 * N1: the firs day of current month
 * F2: end date
 * E2: start date 
+
+26. check a cell if in a **list** and assign value
+
+=IF(ISNUMBER(MATCH(B2,K:K,0)),"Apple","Pineapple")
+
+*if B2 is in column K, it is apple otherwise pineapple.*
+
