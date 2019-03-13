@@ -117,3 +117,11 @@ N2=MAX(0,MIN(EOMONTH($N$1,0),F2)-MAX($N$1,E2)+1)
 
 *if B2 is in column K, it is apple otherwise pineapple.*
 
+27. calculate months number of some date from today as of today03/13/2019, it the date is also in 2019, do the first function, if it is in 2020, do the second function.
+
+=IF(YEAR(K1)=2019,MONTH(K1)-MONTH(NOW()),MONTH(K1)+12-MONTH(NOW()))
+
+28. multiple if function with changeable criteria
+
+=IFS(Q1<10,Q1,L1=1,Q1*0.5,AND(L1>=2,L1<=4),Q1*0.25,L1>4,Q1*0.15)
+
