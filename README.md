@@ -130,3 +130,8 @@ N2=MAX(0,MIN(EOMONTH($N$1,0),F2)-MAX($N$1,E2)+1)
 Data --> Get Data --> From Other Sources --> From Microsoft Query --> choose Excel Files* and select OK --> go to you directory and select the file --> select the columns you wnat to combine together --> go to next step unitl return data to excel file 
 
 *if the file is too big, you need to manually join these column together*
+
+30. Average a range without N/A and 0
+
+input this function and press ctrl+shift+enter =AVERAGE(IF(ISNUMBER(A2:A40),IF(A2:A40>0,A2:A40)))
+
