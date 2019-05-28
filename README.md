@@ -127,7 +127,7 @@ N2=MAX(0,MIN(EOMONTH($N$1,0),F2)-MAX($N$1,E2)+1)
 
 29. make columns * columns --> Cartesian product
 
-Data --> Get Data --> From Other Sources --> From Microsoft Query --> choose Excel Files* and select OK --> go to you directory and select the file --> select the columns you wnat to combine together --> go to next step unitl return data to excel file 
+Data --> Get Data --> From Other Sources --> From Microsoft Query --> choose Excel Files* and select OK --> go to you directory and select the file --> select the columns you want to combine together --> go to next step unitl return data to excel file 
 
 *if the file is too big, you need to manually join these column together*
 
